@@ -41,6 +41,10 @@ namespace Biblioteca
             l1.assegnaLibro(ut);
             l2.assegnaLibro(ut);
             l1.restituzioneLibro(ut);
+
+
+            Utente ut3 = new Utente("Paolo", "Bianchi");
+            Console.WriteLine($"La descrizione è {ut3.Descrizione}");
         }
     }
 }

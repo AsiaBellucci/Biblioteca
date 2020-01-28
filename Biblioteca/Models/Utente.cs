@@ -7,8 +7,15 @@ namespace Biblioteca.Models
  
     public class Utente
     {
-        public string Nome;
-        public string Cognome;
+        internal string Nome { get; set; }
+        internal string Cognome { get; set; }
+        internal string Descrizione { //con il get assegni il nome e il cognome dell'utente alla descrizione
+            get 
+            { 
+                return this.Nome + " " + this.Cognome;
+            } 
+            
+        } 
 
        
         public Utente(string nome, string cognome)
