@@ -28,6 +28,8 @@ namespace Biblioteca
 
             Utente ut3 = new Utente("Paolo", "Bianchi");
             Console.WriteLine($"La descrizione è {ut3.Descrizione}");
+            Console.ReadLine();
+            Console.WriteLine("premere un tasto per terminare.");
         }
     }
 }

@@ -13,6 +13,9 @@ namespace Biblioteca_Interface
             Studente s = new Studente("Giorgio", "Bianchi", "123");
             string desc = s.Descrizione;
             s.Stampa(desc, s.Matricola);
+            Console.WriteLine("premere un tasto per terminare.");
+            //Console.ReadLine();
+            Environment.Exit(0);
         }
     }
 }
